@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 0%, 98%);
+}
+
+/* header */
+header{
+  padding: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+header h1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 200;
+  font-size: 1.9rem;
+  color: hsl(234, 12%, 34%);
+}
+.bold{
+  font-weight: 400;
+  /* text-align: center; */
+}
+header p{
+  text-align: center;
+  color:hsl(229, 6%, 66%);
+  font-size: 0.rem;
+  margin-top: 1rem;
+}
+
+/* main */
+main{
+  padding: 2.5rem 5rem 2rem;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.card{
+  width: 320px;
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 1rem 2rem;
+  height: fit-content;
+  margin-bottom: 2rem;
+  margin-top: 0;
+  background: white;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  box-shadow: 0px 6px 1px hsl(229, 6%, 66%, 0.1);
+  /* cursor: pointer; */
+  cursor: all-scroll;
+}
+
+.card:hover{
+  transition: transform 0.5s, background-color 0.1s;
+  transform: scale(1.05);
+  background-color: rgb(252, 252, 244);
+}
+.card img{
+  align-self: flex-end;
+  margin-top: 1.5rem;
+}
+
+.cyan-card{
+  border-top: 6px solid hsl(180, 62%, 55%);
+}
+.red-card{
+  border-top: 6px solid hsl(0, 78%, 62%);
+}
+.orange-card{
+  border-top: 6px solid hsl(34, 97%, 64%);
+}
+.blue-card{
+  border-top: 6px solid hsl(212, 86%, 64%);
+}
+
+div p{
+  font-weight: 600;
+  font-size: 0.7rem;
+  color: hsl(229, 6%, 66%);
+}
+
+/* attribution */
+.attribution { 
+  font-size: 11px; text-align: center;
+}
+.attribution a {
+   color: hsl(228, 45%, 44%);
+}
